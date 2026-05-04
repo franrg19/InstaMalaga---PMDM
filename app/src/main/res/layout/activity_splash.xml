@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#1a1a2e"
+    android:padding="32dp">
+
+
+<!--Logo de la APP -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_instamalaga"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Nombre de la APP -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Insta Málaga"
+        android:textColor="#ffffff"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="La belleza de Málaga en tu mano"
+        android:textColor="#aaaaaa"
+        android:textSize="14sp"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Botón para entrar -->
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Explorar"
+        android:backgroundTint="#e94560"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
